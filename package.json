@@ -1,0 +1,25 @@
+{
+  "name": "const-durations",
+  "version": "1.0.0",
+  "description": "",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "author": "Evgenij (Eugene) Beloded",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": "./dist/index.js",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "build": "tsc -p .",
+    "build:watch": "tsc -w ."
+  },
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}
