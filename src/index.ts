@@ -1,12 +1,19 @@
 export const ONE_SECOND_MS = 1000
+export const FIVE_SECONDS_MS = 5000
+export const TEN_SECONDS_MS = 10000
 export const ONE_MINUTE_MS = 60000
+export const FIVE_MINUTES_MS = 300000
+export const TEN_MINUTES_MS = 600000
 export const ONE_HOUR_MS = 3600000
 export const ONE_DAY_MS = 86400000
 export const ONE_WEEK_MS = 604800000
 export const ONE_MONTH_MS = 2592000000
 
 export const ONE_SECOND_S = 1
+export const TEN_SECONDS_S = 10
 export const ONE_MINUTE_S = 60
+export const FIVE_MINUTES_S = 300
+export const TEN_MINUTES_S = 600
 export const ONE_HOUR_S = 3600
 export const ONE_DAY_S = 86400
 export const ONE_WEEK_S = 604800
